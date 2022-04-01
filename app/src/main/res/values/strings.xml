@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Qi SDK Tutorials</string>
+    <string name="app_name">Joke Maker</string>
 
     <!-- Autonomous abilities -->
     <string name="hold">Hold</string>
