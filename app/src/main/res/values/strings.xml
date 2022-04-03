@@ -43,7 +43,7 @@
     <string name="extend_map">Extend map</string>
 
     <!-- Tutorial names -->
-    <string name="hello_human">Hello human</string>
+    <string name="hello_human">Tell me a joke</string>
     <string name="qichatbot">Listen and reply</string>
     <string name="listen">Catch few words</string>
     <string name="bookmarks">Mastering Bookmark</string>
