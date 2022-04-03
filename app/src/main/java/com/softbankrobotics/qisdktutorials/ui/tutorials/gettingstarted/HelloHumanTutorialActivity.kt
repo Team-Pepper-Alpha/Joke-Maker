@@ -44,7 +44,7 @@ class HelloHumanTutorialActivity : TutorialActivity(), RobotLifecycleCallbacks {
 
         // Create a new say action.
         val say = SayBuilder.with(qiContext) // Create the builder with the context.
-                .withText("Hello human!") // Set the text to say.
+                .withText("What's the deal with bananas? We have apple juice and orange juice. How about a banana juice!") // Set the text to say.
                 .build() // Build the say action.
 
         // Execute the action.
