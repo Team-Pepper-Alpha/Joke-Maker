@@ -27,25 +27,25 @@
                 android:drawableStart="@drawable/ic_talk"
                 android:text="@string/let_s_talk" />
 
-            <RadioButton
-                style="@style/Category"
-                android:id="@+id/move_button"
-                android:layout_width="0dp"
-                android:layout_height="match_parent"
-                android:layout_weight="1"
-                android:layout_marginStart="2dp"
-                android:layout_marginEnd="2dp"
-                android:drawableStart="@drawable/ic_move"
-                android:text="@string/let_s_move"/>
+<!--            <RadioButton-->
+<!--                style="@style/Category"-->
+<!--                android:id="@+id/move_button"-->
+<!--                android:layout_width="0dp"-->
+<!--                android:layout_height="match_parent"-->
+<!--                android:layout_weight="1"-->
+<!--                android:layout_marginStart="2dp"-->
+<!--                android:layout_marginEnd="2dp"-->
+<!--                android:drawableStart="@drawable/ic_move"-->
+<!--                android:text="@string/let_s_move"/>-->
 
-            <RadioButton
-                style="@style/Category"
-                android:id="@+id/smart_button"
-                android:layout_width="0dp"
-                android:layout_height="match_parent"
-                android:layout_weight="1"
-                android:drawableStart="@drawable/ic_brains"
-                android:text="@string/let_s_be_smart"/>
+<!--            <RadioButton-->
+<!--                style="@style/Category"-->
+<!--                android:id="@+id/smart_button"-->
+<!--                android:layout_width="0dp"-->
+<!--                android:layout_height="match_parent"-->
+<!--                android:layout_weight="1"-->
+<!--                android:drawableStart="@drawable/ic_brains"-->
+<!--                android:text="@string/let_s_be_smart"/>-->
 
         </RadioGroup>
 
@@ -75,13 +75,13 @@
         android:paddingEnd="25dp"
         tools:listitem="@layout/tutorial_layout" />
 
-    <com.softbankrobotics.qisdktutorials.ui.bilateralswitch.BilateralSwitch
-        android:id="@+id/level_switch"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal"
-        android:layout_marginBottom="22dp"
-        custom:first_section_name="&quot;Basic&quot;"
-        custom:second_section_name="&quot;Advanced&quot;" />
+<!--    <com.softbankrobotics.qisdktutorials.ui.bilateralswitch.BilateralSwitch-->
+<!--        android:id="@+id/level_switch"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_gravity="center_horizontal"-->
+<!--        android:layout_marginBottom="22dp"-->
+<!--        custom:first_section_name="&quot;Basic&quot;"-->
+<!--        custom:second_section_name="&quot;Advanced&quot;" />-->
 
 </LinearLayout>

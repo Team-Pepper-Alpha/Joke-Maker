@@ -49,8 +49,8 @@ class TutorialToolbar (context: Context, attrs: AttributeSet? = null, defStyleAt
                 background_view.setBackgroundColor(ContextCompat.getColor(context, R.color.basic_green))
             }
             TutorialLevel.ADVANCED -> {
-                level_textview.setText(R.string.toolbar_advanced_level)
-                background_view.setBackgroundColor(ContextCompat.getColor(context, R.color.advanced_orange))
+//                level_textview.setText(R.string.toolbar_advanced_level)
+//                background_view.setBackgroundColor(ContextCompat.getColor(context, R.color.advanced_orange))
             }
         }
 

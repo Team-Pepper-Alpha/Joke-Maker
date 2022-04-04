@@ -78,8 +78,8 @@ class CategoriesActivity : RobotActivity(), CategoriesContract.View, OnTutorialC
         runOnUiThread {
             when (category) {
                 TutorialCategory.TALK -> talk_button.isChecked = true
-                TutorialCategory.MOVE -> move_button.isChecked = true
-                TutorialCategory.SMART -> smart_button.isChecked = true
+//                TutorialCategory.MOVE -> move_button.isChecked = true
+//                TutorialCategory.SMART -> smart_button.isChecked = true
             }
         }
     }
@@ -87,8 +87,8 @@ class CategoriesActivity : RobotActivity(), CategoriesContract.View, OnTutorialC
     override fun selectLevel(level: TutorialLevel) {
         runOnUiThread {
             when (level) {
-                TutorialLevel.BASIC -> level_switch.setChecked(false)
-                TutorialLevel.ADVANCED -> level_switch.setChecked(true)
+//                TutorialLevel.BASIC -> level_switch.setChecked(false)
+//                TutorialLevel.ADVANCED -> level_switch.setChecked(true)
             }
         }
     }
@@ -108,15 +108,15 @@ class CategoriesActivity : RobotActivity(), CategoriesContract.View, OnTutorialC
             robot.selectTopic(TutorialCategory.TALK)
         }
 
-        move_button.setOnClickListener {
-            presenter.loadTutorials(TutorialCategory.MOVE)
-            robot.selectTopic(TutorialCategory.MOVE)
-        }
-
-        smart_button.setOnClickListener {
-            presenter.loadTutorials(TutorialCategory.SMART)
-            robot.selectTopic(TutorialCategory.SMART)
-        }
+//        move_button.setOnClickListener {
+//            presenter.loadTutorials(TutorialCategory.MOVE)
+//            robot.selectTopic(TutorialCategory.MOVE)
+//        }
+//
+//        smart_button.setOnClickListener {
+//            presenter.loadTutorials(TutorialCategory.SMART)
+//            robot.selectTopic(TutorialCategory.SMART)
+//        }
 
         close_button.setOnClickListener { finishAffinity() }
     }
@@ -141,14 +141,14 @@ class CategoriesActivity : RobotActivity(), CategoriesContract.View, OnTutorialC
      * Configure the level switch.
      */
     private fun setupSwitch() {
-        level_switch.setOnCheckedChangeListener(OnCheckedChangeListener {
-            if (it) {
-                presenter.loadTutorials(TutorialLevel.ADVANCED)
-                robot.selectLevel(TutorialLevel.ADVANCED)
-            } else {
-                presenter.loadTutorials(TutorialLevel.BASIC)
-                robot.selectLevel(TutorialLevel.BASIC)
-            }
-        })
+//        level_switch.setOnCheckedChangeListener(OnCheckedChangeListener {
+//            if (it) {
+//                presenter.loadTutorials(TutorialLevel.ADVANCED)
+//                robot.selectLevel(TutorialLevel.ADVANCED)
+//            } else {
+//                presenter.loadTutorials(TutorialLevel.BASIC)
+//                robot.selectLevel(TutorialLevel.BASIC)
+//            }
+//        })
     }
 }
