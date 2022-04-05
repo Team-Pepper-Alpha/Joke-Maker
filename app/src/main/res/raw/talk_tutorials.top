@@ -1,6 +1,6 @@
 topic: ~talk_tutorials()
 
-concept:(hello) ["Hello human"]
+concept:(hello) ["Tell me a joke"]
 concept:(qichatbot) ["Listen and reply"]
 concept:(listen) ["Catch {few} words"]
 concept:(bookmark) ["{Mastering} bookmark"]

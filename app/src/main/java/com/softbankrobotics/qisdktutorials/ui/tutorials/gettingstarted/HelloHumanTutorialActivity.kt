@@ -49,6 +49,11 @@ class HelloHumanTutorialActivity : TutorialActivity(), RobotLifecycleCallbacks {
 
         // Execute the action.
         say.run()
+
+        // Use built-in emotion detection and access the camera to detect people's emotion
+
+        // From the detected result to output the right reaction
+        
     }
 
     override fun onRobotFocusLost() {
