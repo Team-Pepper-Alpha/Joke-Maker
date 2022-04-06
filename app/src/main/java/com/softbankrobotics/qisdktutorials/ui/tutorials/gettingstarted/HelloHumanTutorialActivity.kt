@@ -42,9 +42,18 @@ class HelloHumanTutorialActivity : TutorialActivity(), RobotLifecycleCallbacks {
         val conversationStatus = qiContext.conversation.status(qiContext.robotContext)
         conversationBinder = conversation_view.bindConversationTo(conversationStatus)
 
+        val jokes = arrayOf("What's the deal with bananas? I mean they got orange juice. You got apple juice. Where's the banana juice?",
+                "You can't have everything. Where would you put it?",
+                "A lot of people are afraid of heights. Not me, I'm afraid of widths.",
+                "A conclusion is the place where you got tired or thinking.",
+                "Cross country skiing is great if you live in a small country.",
+                "Everyone has a photographic memory. Some just don't have film.")
+
+        val randomIndex = Random.nextInt(0, jokes.size)
+
         // Create a new say action.
         val say = SayBuilder.with(qiContext) // Create the builder with the context.
-                .withText("What's the deal with bananas? I mean they got orange juice. You got apple juice. Where's the banana juice?") // Set the text to say.
+                .withText(jokes[randomIndex]) // Set the text to say.
                 .build() // Build the say action.
 
         // Execute the action.
@@ -53,7 +62,7 @@ class HelloHumanTutorialActivity : TutorialActivity(), RobotLifecycleCallbacks {
         // Use built-in emotion detection and access the camera to detect people's emotion
 
         // From the detected result to output the right reaction
-        
+
     }
 
     override fun onRobotFocusLost() {
