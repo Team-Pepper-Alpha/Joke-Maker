@@ -15,6 +15,7 @@ import com.softbankrobotics.qisdktutorials.R
 import com.softbankrobotics.qisdktutorials.ui.conversation.ConversationBinder
 import com.softbankrobotics.qisdktutorials.ui.tutorials.TutorialActivity
 import kotlinx.android.synthetic.main.conversation_layout.*
+import kotlin.random.Random
 
 /**
  * The activity for the Hello human tutorial.
