@@ -1,12 +1,13 @@
 # Joke Maker
 
-<!-- ![](app/src/main/res/mipmap-xxxhdpi/ic_app_icon.png) -->
 ![](app/src/main/res/mipmap-xhdpi/ic_app_icon.png)
 
 It is an Android application for Pepper the robot.
 It was developed using the QiSDK (https://qisdk.softbankrobotics.com).
 
 This application allows Pepper to tell jokes, and detect people's emotion.
+
+Checkout our work [click here](app/src/main/java/com/softbankrobotics/qisdktutorials/ui/tutorials/gettingstarted/)
 
 ![](srcImg/JokeMakerDemo.gif)
 
